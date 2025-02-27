@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lab_1</string>
+    <string name="Title">Оберіть тип товару та фірму</string>
+    <string name="choose_company_and_type">Оберіть постачальника та тип товару</string>
+    <string name="chosen_type">Обраний тип товару:</string>
+    <string name="chosen_company">Обраний постачальник:</string>
+    <string name="company">Фірма</string>
+    <string name="type">Тип товару</string>
+    <string name="cancel">OK</string>
+    <string name="confirm">Cancel</string>
+    <string name="company_and_type">Будь ласка, виберіть компанію і тип товару</string>
+</resources>
