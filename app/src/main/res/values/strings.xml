@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Lab_2</string>
+    <string name="app_name">Lab_3</string>
     <string name="Title">Оберіть тип товару та фірму</string>
     <string name="choose_company_and_type">Оберіть постачальника та тип товару</string>
     <string name="chosen_type">Обраний тип товару:</string>
@@ -8,5 +8,6 @@
     <string name="type">Тип товару</string>
     <string name="cancel">Cancel</string>
     <string name="confirm">OK</string>
+    <string name="open">Open</string>
     <string name="company_and_type">Будь ласка, виберіть компанію і тип товару</string>
 </resources>
