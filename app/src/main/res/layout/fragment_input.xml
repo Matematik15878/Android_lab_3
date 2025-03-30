@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!-- Блок з назвою сторінки -->
     <LinearLayout
         android:id="@+id/page_title"
         android:layout_width="match_parent"
@@ -29,7 +28,6 @@
 
     </LinearLayout>
 
-    <!-- Основний блок -->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -41,51 +39,18 @@
             android:orientation="vertical"
             android:padding="10dp">
 
-            <!-- Запрошення обрати тип товару та фірму -->
-            <TextView
-                android:id="@+id/choose_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:layout_marginBottom="10dp"
-                android:textColor="@color/black"
-                android:text="@string/choose_company_and_type"/>
-
-            <!-- Обрана компанія -->
-            <TextView
-                android:id="@+id/chosen_company"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:textColor="@color/black"
-                android:layout_marginBottom="10dp"
-                android:text="@string/chosen_company"/>
-
-            <!-- Обраний тип товару -->
-            <TextView
-                android:id="@+id/chosen_type"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:textColor="@color/black"
-                android:layout_marginBottom="10dp"
-                android:text="@string/chosen_type"/>
-
-            <!-- Вертикальні контейнери radiobutton -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:weightSum="2">
 
-                <!-- Вибір фірми -->
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:orientation="vertical"
-                    android:paddingEnd="5dp"
-                    android:paddingStart="0dp">
+                    android:paddingEnd="5dp">
 
                     <TextView
                         android:id="@+id/company_label"
@@ -105,14 +70,12 @@
 
                 </LinearLayout>
 
-                <!-- Вибір типу товару -->
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:orientation="vertical"
-                    android:paddingStart="5dp"
-                    android:paddingEnd="0dp">
+                    android:paddingStart="5dp">
 
                     <TextView
                         android:id="@+id/type_label"
@@ -138,7 +101,6 @@
 
     </ScrollView>
 
-    <!-- Функціональні кнопки внизу -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -150,18 +112,9 @@
         android:paddingRight="10dp">
 
         <Button
-            android:id="@+id/button_confirm"
-            android:layout_width="0dp"
+            android:id="@+id/button_ok"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:textSize="18sp"
-            android:text="@string/cancel"/>
-
-        <Button
-            android:id="@+id/button_cancel"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:textSize="18sp"
             android:text="@string/confirm"/>
 

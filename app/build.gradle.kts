@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.androidlabs.lab_1"
+    namespace = "com.androidlabs.lab_2"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.androidlabs.lab_1"
+        applicationId = "com.androidlabs.lab_2"
         minSdk = 30
         targetSdk = 34
         versionCode = 1
@@ -49,6 +49,9 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.androidx.fragment.ktx)
+    implementation(libs.androidx.appcompat)
+    implementation(libs.androidx.constraintlayout)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
